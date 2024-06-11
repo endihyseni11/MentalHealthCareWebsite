@@ -1,0 +1,61 @@
+.create-doctor-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .create-button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: 1px solid #4cae4c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .doctor-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: 1px solid #d43f3a;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c;
+  }
+  

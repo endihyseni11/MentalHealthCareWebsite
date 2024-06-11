@@ -1,0 +1,28 @@
+/* RegistrationLinks.css */
+
+.registration-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .registration-link {
+    flex: 1; /* Distribute available space equally */
+    margin-right: 10px; /* Add margin for separation */
+    padding: 15px 20px; /* Increase padding for width */
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 220px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registration-link:hover {
+    background-color: #ddd;
+  }
+  
+  .registration-link.active {
+    background-color: #378de9;
+    color: #fff;
+  }
+  

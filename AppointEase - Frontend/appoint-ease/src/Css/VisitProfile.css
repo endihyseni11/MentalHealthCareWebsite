@@ -1,0 +1,132 @@
+.my-5 {
+    margin-top: 2rem;
+}
+
+.profile-row p.specialisation {
+    color: rgb(109, 106, 106);
+}
+
+.col-fixed-width {
+    flex: 0 0 40%;
+}
+
+.profile-box {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.profile-box img {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.profile-box h4,
+.profile-box p {
+    margin-bottom: 1rem;
+}
+
+/* Button Styles */
+/* Button Styles */
+.profile-box .btn-primary {
+    background-color: #6796e0;
+    border-color: #6796e0;
+    margin-left: auto; /* Move the button to the right */
+    margin-right: -20vw;
+}
+
+.profile-box .btn-primary:hover {
+    background-color: lightblue;
+    border-color: white;
+    margin-left: auto; /* Move the button to the right */
+}
+
+.custom-book-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.custom-book-btn:hover {
+    background-color: lightblue;
+    border-color: white;
+}
+
+.smaller-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 0; /* Remove margin */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 30px;
+}
+
+.profile-tabs {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.profile-tabs .nav-link {
+    flex: 1;
+    text-align: center;
+    color: black !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    padding: 0 !important;
+   
+}
+
+.profile-tabs .nav-link:hover {
+    color: #007bff !important;
+    font-weight: bold !important;
+    border-bottom: 3px solid #a5a5ac !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.active-tab,
+.profile-tabs .nav-link.active,
+.profile-tabs .nav-link.active:focus {
+    color: #74a5da !important;
+    font-weight: bold !important;
+    border-bottom: 3px solid #7aa7d6 !important;
+    margin-top: 0 !important; /* Remove top margin */
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Add this to remove space between the top border and Overview and Locations */
+.profile-tabs .nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.profile-tabs .nav-link:hover {
+    padding-top: 0 !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.smaller-box h5 {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+/* Add space above the Locations paragraph */
+.smaller-box p {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+.specialisation-text {
+    color: grey; /* Set the desired color for specialisation */
+}
+
+.birth-date {
+   /* Italicize the birth date */
+    color: #555; /* Set a dark grey color */
+    /* Make the birth date text bold */
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-top: 5px; /* Add some space between birth date and the previous element */
+}

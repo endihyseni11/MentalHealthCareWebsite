@@ -1,0 +1,32 @@
+/* Sidebar.css */
+
+.sidebar-container {
+    width: 20%; /* Set a static width for the sidebar */
+    height: 100vh; /* Set a static height for the sidebar, 100% of the viewport height */
+    background-color: #fff; /* Adjust the background color as needed */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .brand-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand-container span {
+    margin-left: 10px;
+  }
+  
+  .list-group {
+    width: 100%; /* Make the list group take the full width of the container */
+  }
+  
+  .sidebar-container .list-group-item.active {
+    background-color: #767373; /* Gray color */
+    border-radius: 12px; /* Border radius */
+  }
+  

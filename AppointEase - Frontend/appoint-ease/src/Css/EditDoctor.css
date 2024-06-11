@@ -1,0 +1,46 @@
+/* EditDoctor.css */
+
+/* Center the form on the page */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the form */
+.form-container {
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Add some spacing to form elements */
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+/* Style the button */
+.update-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add some margin to the link */
+.link-back {
+  margin-top: 1rem;
+  display: block;
+}
+
+/* Style the form inputs */
+.form-container input {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}

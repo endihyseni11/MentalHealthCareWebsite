@@ -1,0 +1,30 @@
+h2, label {
+    font-weight: normal !important;
+    color: #888 !important;
+}
+
+.stripe-form-container {
+    border: 1px solid #ced4da; /* Kornizë e hollë */
+    padding: 10px; /* Hapësirë brenda kornizës */
+    border-radius: 3px; /* Forma e kutisë */
+    background-color: #f8f9fa; /* Ngjyra e sfondit */
+    margin-bottom: 80px; /* Hapësirë poshtë kutisë */
+    width: 700px; /* Gjerësia e kutisë */
+    max-width: 100%; /* Maksimumi i gjerësisë së kutisë */
+    margin: 80px auto; /* Qëndrimi i kutisë në mes */
+    height: auto; /* Lartësia e kutisë, lëreni "auto" për të përshtatur sipas përmbajtjes */
+}
+
+.stripe-form-group {
+    padding: 15px; 
+    border-radius: 5px; /* Forma e kutisë së brendshme */
+    margin-bottom: 20px; /* Hapësirë poshtë grupit të formës */
+}
+
+.proceed-button {
+    margin-top: 10px; /* Hapësirë mbi butonin */
+}
+
+.footer {
+    margin-top: 60px; /* Hapësirë nga lartë */
+}
